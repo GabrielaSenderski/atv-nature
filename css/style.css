@@ -1,0 +1,226 @@
+/* Formatação Geral */ 
+
+html {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: calc(15px + 0.390625vw);
+}   
+
+/* Formatação Topo */ 
+
+header {
+    background-color: #3B8686;
+    padding: 30px 7vw 30px 7vw;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 50px 10px 50px;
+}
+
+header nav ul {
+    display: flex;
+   
+}
+header nav ul li {
+    margin: 0 40px 0 0;
+    
+}
+
+header nav ul li:last-child {
+    margin: 0;
+}
+
+header nav .atual {
+    background: rgba(255, 255, 255, 0.2);
+    padding: 5px 15px 5px 15px;
+    border-radius: 17px;
+}
+
+header nav .atual:hover {
+    background: rgba(255, 255, 255, 0.5);
+}
+
+header nav a {
+    color: #ffff;
+    text-decoration: none;
+}
+
+/* Formatação Banner */ 
+
+section.banner {
+    background: linear-gradient(rgba(121, 189, 154, 0.2), rgba(121, 189, 154, 0.2)), url(../src/bannerInicial.png) no-repeat center center;
+    background-size: 100% auto, 100% auto;
+    text-align: left;
+    padding: 20vw 10vw 3vw 10vw;
+}
+
+section.banner h2.um {
+    color: white;
+    font-size: 3rem;
+    width: 23%;
+    background: rgba(59, 134, 134, 0.5);
+    padding: 1vw 2vw 0 2vw;
+}
+section.banner h2.dois {
+    color: white;
+    font-size: 3rem;
+    width: 46%;
+    background: rgba(59, 134, 134, 0.5);
+    padding: 1vw 2vw 1vw 2vw;
+}
+
+/* Formatação Serviços */ 
+
+section.diferenciais {
+    display: flex;
+    text-align: center;
+    padding: 5vw 0 5vw 0;
+   justify-content: space-between;
+   margin: 0 5vw 0 5vw;
+}
+
+section.diferenciais div {
+    padding: 0 3vw 0 3vw;
+}
+
+section.diferenciais div span {
+    font-size: 3rem;
+    padding-bottom: 1vw;
+}
+
+section.diferenciais h3 {
+    font-size: 1.5rem;
+    padding: 20px 0 20px 0;
+}
+
+section.diferenciais p {
+    line-height: 1.2rem;
+    color: #747474;
+}
+
+section.diferenciais button {
+    background-color: #3B8686;
+    border: none;
+    padding: 0.8vw 2.2vw 0.8vw 2.2vw;
+    font-size: 0.9rem;
+    color: #ffffff;
+    margin: 1.2vw 0 0 0;
+}
+
+/* Formatação Números */ 
+
+section.numeros {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    background: linear-gradient(rgba(121, 189, 154, 0.5), rgba(121, 189, 154, 0.5)), url(../src/bannerNumeros.png) no-repeat center center;
+    background-size: 100% auto, 100% auto;
+}
+
+section.numeros div {
+    padding: 4.5vw 3vw 4.5vw 3vw;
+}
+
+section.numeros div span {
+    font-size: 4rem;
+}
+
+section.numeros div p {
+    font-size: 1.8rem;
+    color: #ffffff;
+    padding: 1vw 0 0 0;
+}
+
+/* Formatação Possibiidades */
+
+section.possibilidades div.divUm {
+    display: flex;
+    margin: 8vw 10vw 8vw 10vw;
+  
+}
+
+section.possibilidades h3 {
+    color: #0B486B;
+    font-size: 2.3rem;
+    padding-bottom: 2vw;
+}
+section.possibilidades p {
+    line-height: 1.3rem;
+    color: #747474;
+    padding: 0 13vw 0 0;
+}
+
+section.possibilidades button {
+    background-color: #0B486B;
+    border: none;
+    padding: 0.8vw 2.2vw 0.8vw 2.2vw;
+    font-size: 0.9rem;
+    color: #ffffff;
+    margin: 2.5vw 2vw 0 0;
+}
+
+/* Formatação Footer */
+
+footer {
+    background-color: #3B8686;
+    display: flex;
+    padding: 5vw 10vw 1vw 10vw;
+    justify-content: space-between;
+}
+footer p {
+ color: #ffffff;
+}    
+
+footer ul {
+    display: flex;
+}
+footer ul li span {
+    color: white;
+}
+
+
+
+footer div.divUm ul li {
+    font-size: 2rem;
+    padding: 0 18px 2vw 0;
+    text-align: left;
+}
+
+
+
+footer div.divDois div {
+    display: flex;
+    padding: 0 0 10px 0;
+    text-align: center;
+}
+
+.divDois div:first-child p {
+    font-weight: bold;
+}
+.divDois span {
+    color: #ffffff;
+    padding-right: 10px;
+}
+
+
+
+
+footer div.divTres ul{
+    display: block;
+}
+
+.divTres a {
+    text-decoration: none;
+    color: #ffffff;
+   
+}
+
+.divTres li {
+     padding: 0 0 35px 0;
+     text-align: right;
+}
+
+
+
+
